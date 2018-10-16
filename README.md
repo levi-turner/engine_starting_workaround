@@ -35,6 +35,7 @@ Contents:
   - New Action > Start a Program
   - Program/Script: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
   - Add arguments: `-ExecutionPolicy Bypass C:\Temp\QLIK-87751-2-Reboot.ps1` (Note: Adjust C:\Temp\ to path where the script lives)
+
 ![QLIK-87751-2-Reboot-4.png](img/QLIK-87751-2-Reboot-4.png)
 
 `Scripts/QLIK-87751-3-Automatic_Startup.ps1`: Place script in a directory, launch PowerShell as the service account as an admin. Execute the script.
